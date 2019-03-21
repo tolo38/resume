@@ -1,7 +1,14 @@
 :root {
-  --main-bg-color: #d6d6d6;
-  --bullet-border: #b3b3b3;
-  --bullet: #1d2929;
+    --main-bg-color: #d6d6d6;
+    --time-line-color: #b3b3b3;
+    --title-bloc-color: #737373;
+    --pan-bg-color: #1d2929;
+    --blue-jean: #02195e;
+    --japanese-red: #b50047;
+    --spanish-red: #ff0000;
+    --bullet-border-color: var(--time-line-color);
+    --bullet-last-color: var(--blue-jean);
+    --bullet-color: var(--pan-bg-color);
 }
 body {
     background : var(--main-bg-color);
